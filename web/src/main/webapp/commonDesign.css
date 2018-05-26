@@ -1,0 +1,150 @@
+p, h1, pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre{
+    font-size: 100%;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+button{
+    margin: auto;
+    width: 260px;
+    height: 35px;
+    background: rgba(82, 243, 250, 0.856) 35%;
+    color: black;
+    font-weight: 500;
+    margin-left: 470px;
+}
+button:hover{
+    padding: 0px;
+    background: rgba(61, 188, 190, 0.856)
+}
+.header-part{
+    background: linear-gradient(to right, white, rgba(82, 243, 255, 0.856) 35%);
+    height: 150px;
+    margin-bottom: 0px;
+}
+.name-of-logo{
+    margin-bottom: 0px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+.name-of-logo h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name-of-logo p{
+    margin-top: 0px;
+    font-size: 20px;
+    width: 100%;
+}
+.logo{
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px; 
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.menu-nav{
+    margin-top: 0px;
+    height: 50px;
+    background-color: rgba(41, 230, 220, 0.5);
+    clear: both;
+    overflow-y: hidden;
+}
+.part-of-menu{
+    padding-left: 0;
+    float: right;
+    width: 55px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: 13px;
+    color: black;
+}
+.part-of-menu:hover{
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+
+
+
+main h2{
+    text-align: center;
+}
+.main-profile{
+    overflow-y: auto;
+}
+.main-profile label, .main-profile button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.registration{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+label p{
+        white-space: pre;
+}
+label span{
+    clear: left;
+}
+/*.main-profile button{
+    margin-left: 90px;
+    margin-bottom: 45px;
+}*/
+.main-profile p{
+    text-align: center;
+}
+.panel-default{
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid rgba(82, 243, 255, 0.856);
+}
+.panel-heading{
+    margin-top: 0px;
+    border-bottom: 3px solid rgba(82, 243, 255, 0.856);
+}
+.panel-body{
+    margin-bottom: 50px; 
+}
+
+
+
+
+.footer-part{
+    margin-top: 35px;
+    background: linear-gradient(to right, white, rgba(82, 243, 255, 0.856) 35%);
+    height: 250px;
+    overflow-y: hidden;
+}
+.footer-nav{
+    margin: 15px;
+    float: left;
+    overflow-y: hidden;
+}
+.part-of-footer{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.part-of-footer a{
+    text-decoration: none;
+    color: black;
+}
+.part-of-footer {
+    font-size: 12px;
+}
+.tel{
+    height: 12px;
+}

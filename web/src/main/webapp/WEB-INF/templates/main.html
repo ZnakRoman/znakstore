@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Flight - улетайте с нами</title>
+    <link rel="shortcut icon" href="../../resources/pictures/logo.png" type="image/png">
+    <link rel="stylesheet" href="../../resources/css/commonDesign.css">
+    <link rel="stylesheet" href="../../resources/css/tableCss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div th:replace="header :: header"></div>
+<main>
+    <table class="list">
+        <tr>
+            <th style="background: url(../../resources/pictures/paris.jpg);
+            background-size: cover;"></th>
+            <th style="background: url(../../resources/pictures/berlin.png);
+            background-size: cover;"></th>
+            <th style="background: url(../../resources/pictures/madrid.jpg);
+            background-size: cover;"></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+</main>
+<div th:replace="footer :: footer"></div>
+</body>
+</html>

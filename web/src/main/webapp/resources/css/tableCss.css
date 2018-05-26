@@ -1,0 +1,15 @@
+.list{
+    margin: 3%;
+    padding: 0;
+    width:91%;
+}
+.list tr{
+    height: 200px;
+}
+.list th{  
+    
+    border: 0;
+}
+.list img{
+    
+}

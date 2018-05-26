@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Вход</title>
+    <link rel="shortcut icon" href="../../resources/pictures/logo.png" type="image/png">
+    <link rel="stylesheet" href="../../resources/css/commonDesign.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div th:replace="header :: header"></div>
+<main>
+    <div class="main-profile panel-default">
+        <h2 class="panel-heading">Вход в аккаунт</h2>
+        <form method="post" class="registration">
+            <label>
+                <p>Почта:                     <input type="text" name="login"></p>
+            </label>
+            <label>
+                <p>Пароль:                  <input type="text" name="password"></p>
+            </label>
+            <button type="submit">Войти</button><br>
+            <div class="part of menu"><a class="part-of-menu" href="registration.html">Вас нет? Присоединяйтесь!</a></div>
+        </form>
+    </div>
+</main>
+<div th:replace="footer :: footer"></div>
+</body>
+</html>
